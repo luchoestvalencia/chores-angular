@@ -1,0 +1,26 @@
+<div ng-include="'app/template/header.html'"></div>
+	<div class="">
+		<div class="search ">
+			<input type="text" class ="search-bar" ng-model="chore.query" placeholder="Buscar">
+		</div>
+
+		<h2>Tareas pendientes</h2>
+		<div class="contenedor chore" ng-repeat = "chore in vmChore.chore | filter:{'name':  chore.query} " ng-click="chore.viewDetail(chore)" class="">
+		
+			<label>Nombre :  {{chore.name}}</label>
+			<button ng-click="vmChore.finalizar(chore)">Finalizar tarea</button>
+			<button ng-click="vmChore.editar(chore)">Editar Tarea</button>
+			<button ng-click="vmChore.detail(chore)">Ver Detalle</button>
+			
+		</div>
+	</div>
+	<div  class="load-more" ng-if="vmChore.choresAvailable" ng-click="vmChore.loadMoreChores()">
+		<div class="icon-load-more">
+			<div class="image-background">
+				<i class="material-icons">expand_more</i>
+				Cargar Más
+			</div>
+		</div>
+		
+	</div>
+</div>

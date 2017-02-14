@@ -1,0 +1,487 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Luis",
+      "email": "luchoestvalencia@gmail.com",
+      "username": "lucho",
+      "password": "12345"
+    },
+    {
+      "id": 2,
+      "name": "Natalia",
+      "email": "nataliahc94@gmail.com",
+      "username": "natica",
+      "password": "1256"
+    },
+    {
+      "name": "Luisa",
+      "lastName": "Arango",
+      "username": "luinix",
+      "email": "luisaarango@gmail.com",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "name": "Daniela",
+      "lastName": "Arteaga",
+      "identification": "12345",
+      "username": "Dani123",
+      "email": "daniela@micorreo.net",
+      "password": "12A-aaaa",
+      "id": 4
+    },
+    {
+      "name": "El nuevo",
+      "lastName": ".net",
+      "identification": "12345",
+      "username": "estesi",
+      "email": "elnuevo@nuev",
+      "password": "12A{ASDF",
+      "id": 5
+    },
+    {
+      "name": "Jorge",
+      "lastName": "Diaz",
+      "identification": "2345",
+      "username": "jorge",
+      "email": "sdf@gjo.com",
+      "password": "12A-aaaa",
+      "id": 6
+    }
+  ],
+  "chores": [
+    {
+      "id": 1,
+      "name": "Bañara Maya",
+      "date": "2017-01-01T05:00:00.000Z",
+      "resposable": 1,
+      "responsables": "Daniela, Luisa",
+      "state": "done",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 2,
+      "name": "Cita odontologica",
+      "date": "2017-01-01T05:00:00.000Z",
+      "resposable": 1,
+      "responsables": "Doctora Gonzales",
+      "state": "done",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 3,
+      "name": "Pagar targeta",
+      "date": "2017-01-01T05:00:00.000Z",
+      "resposable": 2,
+      "responsables": "Luis Esteban, Rueda",
+      "state": "undone",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 4,
+      "name": "Comprar cuido",
+      "date": "Mar/01/2017",
+      "resposable": 1,
+      "responsables": "Ferney",
+      "state": "done",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 5,
+      "name": "Lavar ropa",
+      "date": "Feb/19/2017",
+      "resposable": 1,
+      "responsables": "Jose",
+      "state": "done",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 6,
+      "name": "Comprar cuaderno",
+      "date": "Jun/02/2017",
+      "resposable": 2,
+      "responsables": "Natalia",
+      "state": "undone",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "resposable": 1,
+      "name": "correr",
+      "description": "mucho",
+      "responsables": "nadies",
+      "date": "2017-01-01T05:00:00.000Z",
+      "id": 7,
+      "state": "done"
+    },
+    {
+      "id": 8,
+      "name": "Bañara Maya",
+      "date": "Feb/20/2017",
+      "resposable": 1,
+      "responsables": "Daniela, Luisa",
+      "state": "done",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 10,
+      "name": "Bañara Maya",
+      "date": "2017-01-01T05:00:00.000Z",
+      "resposable": 1,
+      "responsables": "Daniela, Luisa",
+      "state": "done",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 11,
+      "name": "Bañara Maya",
+      "date": "2017-01-01T05:00:00.000Z",
+      "resposable": 1,
+      "responsables": "Daniela, Luisa",
+      "state": "done",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 12,
+      "name": "Bañara Maya",
+      "date": "2017-01-01T05:00:00.000Z",
+      "resposable": 1,
+      "responsables": "Daniela, Luisa",
+      "state": "done",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 13,
+      "name": "Bañara Maya",
+      "date": "2017-01-01T05:00:00.000Z",
+      "resposable": 1,
+      "responsables": "Daniela, Luisa",
+      "state": "done",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 14,
+      "name": "Bañara Maya",
+      "date": "2017-01-01T05:00:00.000Z",
+      "resposable": 1,
+      "responsables": "Daniela, Luisa",
+      "state": "done",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 15,
+      "name": "Bañara Maya",
+      "date": "2017-01-01T05:00:00.000Z",
+      "resposable": 1,
+      "responsables": "Daniela, Luisa",
+      "state": "done",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 16,
+      "name": "Bañara Maya",
+      "date": "Feb/20/2017",
+      "resposable": 1,
+      "responsables": "Daniela, Luisa",
+      "state": "done",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 17,
+      "name": "Bañara Maya",
+      "date": "Feb/20/2017",
+      "resposable": 1,
+      "responsables": "Daniela, Luisa",
+      "state": "done",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 18,
+      "name": "Bañara Maya",
+      "date": "Feb/20/2017",
+      "resposable": 1,
+      "responsables": "Daniela, Luisa",
+      "state": "done",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 19,
+      "name": "Bañara Maya",
+      "date": "Feb/20/2017",
+      "resposable": 1,
+      "responsables": "Daniela, Luisa",
+      "state": "done",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 20,
+      "name": "Bañara Maya",
+      "date": "Feb/20/2017",
+      "resposable": 1,
+      "responsables": "Daniela, Luisa",
+      "state": "done",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "id": 21,
+      "name": "Bañara Maya",
+      "date": "Feb/20/2017",
+      "resposable": 1,
+      "responsables": "Daniela, Luisa",
+      "state": "done",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis quas quam facere quaerat consequatur perferendis maiores inventore quidem, officiis debitis. Qui, deleniti culpa voluptas veniam animi, quasi excepturi ducimus atque!"
+    },
+    {
+      "resposable": 1,
+      "name": "cosillas",
+      "description": "no te importa",
+      "responsables": "yo",
+      "date": "2016-03-01T05:00:00.000Z",
+      "id": 22,
+      "state": "done"
+    },
+    {
+      "state": "done",
+      "resposable": 1,
+      "name": "Prueba",
+      "description": "detalle",
+      "responsables": "personas",
+      "date": "2017-02-08T05:00:00.000Z",
+      "id": 23
+    },
+    {
+      "state": "done",
+      "resposable": 2,
+      "name": "lavar muebles :D",
+      "description": "lavar muebles",
+      "responsables": "tata",
+      "date": "2017-04-04T05:00:00.000Z",
+      "id": 24
+    },
+    {
+      "state": "done",
+      "resposable": 1,
+      "name": "trapear",
+      "description": "toda la casa",
+      "responsables": "olga",
+      "date": "2017-02-13T05:00:00.000Z",
+      "id": 25
+    },
+    {
+      "state": "done",
+      "resposable": 1,
+      "name": "trapear",
+      "description": "toda la casa",
+      "responsables": "olga",
+      "date": "2017-03-03T05:00:00.000Z",
+      "id": 26
+    },
+    {
+      "state": "done",
+      "resposable": 1,
+      "name": "alorzar",
+      "description": "comer",
+      "responsables": "solo yo",
+      "date": "2017-02-02T05:00:00.000Z",
+      "id": 27
+    },
+    {
+      "state": "done",
+      "resposable": 1,
+      "name": "estudiar mucho00",
+      "description": "parcial de compiladores",
+      "responsables": "Dubier, maya",
+      "date": "2017-03-02T05:00:00.000Z",
+      "id": 28
+    },
+    {
+      "state": "done",
+      "resposable": 1,
+      "name": "pruebas a la pag",
+      "description": "probar la pagina",
+      "responsables": "luis",
+      "date": "2017-04-02T05:00:00.000Z",
+      "id": 29
+    },
+    {
+      "state": "undone",
+      "resposable": 1,
+      "name": "pruebas a la pag",
+      "description": "probar la pagina pruebas funcionales",
+      "responsables": "luis",
+      "date": "2017-04-02T05:00:00.000Z",
+      "id": 30
+    },
+    {
+      "state": "done",
+      "resposable": 1,
+      "name": "pruebas a la pag 2",
+      "description": "..",
+      "responsables": "luis",
+      "date": "2017-03-03T05:00:00.000Z",
+      "id": 31
+    },
+    {
+      "state": "undone",
+      "resposable": 1,
+      "name": "lavar el carro",
+      "description": "polichado\ntapiz\ntapetes",
+      "responsables": "luis",
+      "date": "2017-04-04T05:00:00.000Z",
+      "id": 32
+    },
+    {
+      "state": "done",
+      "resposable": 1,
+      "name": "cortar flores",
+      "description": "para mi mama linda",
+      "responsables": "luis",
+      "date": "2017-03-14T05:00:00.000Z",
+      "id": 33
+    },
+    {
+      "state": "undone",
+      "resposable": 1,
+      "name": "pimtar la casa",
+      "description": "toda",
+      "responsables": "luis",
+      "date": "2017-11-02T05:00:00.000Z",
+      "id": 34
+    },
+    {
+      "state": "done",
+      "resposable": 1,
+      "name": "hablar por whatsapp",
+      "description": "sheveros amigos",
+      "responsables": "Luis",
+      "date": "2017-03-03T05:00:00.000Z",
+      "id": 35
+    },
+    {
+      "state": "done",
+      "resposable": 1,
+      "name": "cortarmel pelo",
+      "description": "todo",
+      "responsables": "luis",
+      "date": "2017-03-02T05:00:00.000Z",
+      "id": 36
+    },
+    {
+      "state": "undone",
+      "resposable": 1,
+      "name": "almorzar con mama",
+      "description": "cumpleaños",
+      "responsables": "Yo",
+      "date": "2017-04-02T05:00:00.000Z",
+      "id": 37
+    },
+    {
+      "state": "undone",
+      "resposable": 1,
+      "name": "correr",
+      "description": "6am",
+      "responsables": "luis",
+      "date": "2019-03-03T05:00:00.000Z",
+      "id": 38
+    },
+    {
+      "state": "undone",
+      "resposable": 1,
+      "name": "estirar",
+      "description": "6am",
+      "responsables": "luis",
+      "date": "2019-03-03T05:00:00.000Z",
+      "id": 39
+    },
+    {
+      "state": "undone",
+      "resposable": 1,
+      "name": "limpiar cuarto",
+      "description": "de todo",
+      "responsables": "luis",
+      "date": "2018-03-03T05:00:00.000Z",
+      "id": 40
+    },
+    {
+      "state": "undone",
+      "resposable": 1,
+      "name": "limpiar cocina",
+      "description": "de todo",
+      "responsables": "luis",
+      "date": "2018-03-03T05:00:00.000Z",
+      "id": 41
+    },
+    {
+      "state": "undone",
+      "resposable": 1,
+      "name": "limpiar nevera",
+      "description": "de todo",
+      "responsables": "luis",
+      "date": "2018-03-03T05:00:00.000Z",
+      "id": 42
+    },
+    {
+      "state": "undone",
+      "resposable": 1,
+      "name": "limpiar escritorio",
+      "description": "de todo",
+      "responsables": "luis",
+      "date": "2018-03-03T05:00:00.000Z",
+      "id": 43
+    },
+    {
+      "state": "undone",
+      "resposable": 1,
+      "name": "comprar verdura",
+      "description": "de todo",
+      "responsables": "luis",
+      "date": "2018-03-03T05:00:00.000Z",
+      "id": 44
+    },
+    {
+      "state": "undone",
+      "resposable": 1,
+      "name": "comprar carnes",
+      "description": "de todo",
+      "responsables": "luis",
+      "date": "2018-03-03T05:00:00.000Z",
+      "id": 45
+    },
+    {
+      "state": "undone",
+      "resposable": 1,
+      "name": "comprar leche",
+      "description": "de todo",
+      "responsables": "luis",
+      "date": "2018-03-03T05:00:00.000Z",
+      "id": 46
+    },
+    {
+      "state": "undone",
+      "resposable": 1,
+      "name": "comprar bebidas",
+      "description": "de todo",
+      "responsables": "luis",
+      "date": "2018-03-03T05:00:00.000Z",
+      "id": 47
+    },
+    {
+      "state": "undone",
+      "resposable": 1,
+      "name": "comprar gaseosas",
+      "description": "10 unidades",
+      "responsables": "luis",
+      "date": "2018-03-03T05:00:00.000Z",
+      "id": 48
+    },
+    {
+      "state": "undone",
+      "resposable": 1,
+      "name": "jugar con el bebe",
+      "description": "jugar",
+      "responsables": "luis",
+      "date": "2019-02-01T05:00:00.000Z",
+      "id": 49
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+<div ng-include="'app/template/header.html'"></div>
+
+<h2>Editar tarea</h2>
+	
+	<form name ="" ng-submit="vmChore.save(vmChore.newChore)" class="forms contenedor">
+
+		
+
+		<div class="section">
+			<label for="">Nombre de la tarea</label>
+			<input class ="content" type="text" placeholder="Nombre: " name="name" ng-model="vmChore.newChore.name" required>	
+		</div>
+
+		<div class="section">
+			<label for="">Detalle</label>
+			<textarea class ="content" name="detalle" id="" cols="20" rows="5" ng-model="vmChore.newChore.description" required></textarea>			
+		</div>
+
+		<div class="section">
+			<label for="">Responsables</label>
+			<input class ="content" type="text" placeholder="Responsables: " ng-model="vmChore.newChore.responsables" >			
+		</div>
+
+		<div class="section">
+			<label for="">Fechha limite</label>
+			<input class ="content" type="text" placeholder="MM/DD/AAAA" ng-model="vmChore.newChore.date" required>			
+		</div>
+
+		<button type="submit">Editar tarea</button>
+
+
+
+
+
+		
+	</form>

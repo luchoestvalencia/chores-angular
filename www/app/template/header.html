@@ -1,0 +1,22 @@
+<!-- Abstract header to include in the views -->
+<header>
+	<div class ="open-menu">
+		<i onclick="openNav()" class="material-icons">&#xE5D2;</i>
+	</div>
+		<img src="assets/img/logo.jpg" alt="">
+</header>
+<div id="mySidenav" class="sidenav">
+
+	
+	<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	<div class="profile-section">
+		<img ng-src="" alt="">
+		<div class="name-profile">{{$root.user.name}}</div>
+	</div>
+	<a href="#!/chores" onclick="closeNav()">Home</a>
+	<a href="#!/addchore" onclick="closeNav()">Agregar Tarea</a>
+	<a href="#!/finishedchores" onclick="closeNav()">Tarea Finalizada</a>
+	<a href="#!/changepass" onclick="closeNav()">Cambiar contraseña</a>
+	<a href="javascript:void(0)" onclick="closeNav()" ng-click="$root.logOut()">Cerrar Sesión</a>
+</div>
+<div id="dark-background" class="dark-background" onclick="closeNav()"></div>

@@ -1,0 +1,11 @@
+<div ng-include="'app/template/header.html'"></div>
+	<div>
+	<h2>Tareas finalizadas</h2>
+		
+		<div class="contenedor chore" ng-repeat = "chore in vmFinishedChore.chore | filter:{'name':  chore.query} ">
+		
+			<label>Nombre : {{chore.name}} </label>
+			
+		</div>
+	
+</div>

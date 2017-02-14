@@ -1,0 +1,29 @@
+.forms {
+    text-align: center;
+    margin-top:20px;
+   
+    
+}
+.forms input {
+     border-radius: 8px;
+}
+.forms button {
+     border-radius: 8px;
+}
+
+.header-login  .open-menu {
+	display: none;
+}
+
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+	.login input {
+		display: block;
+		text-align: center;
+		margin: 0 auto;
+	}
+  	
+}
